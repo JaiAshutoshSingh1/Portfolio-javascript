@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jai Ashutosh - Portfolio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+        <style> <!-- the below are utility classes of css!-->
+            *{
+              margin: 0;
+              padding: 0;  
+            }
+
+            body{
+                background-color: rgb(8, 8, 77);
+                color: white;
+                font-family: 'Poppins', sans-serif;
+            }
+            nav{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                height: 80px;
+                background-color: rgb(27, 2, 50);
+            }
+            .left{
+                font-size: 2rem;
+            }
+            .firstSection > div{
+                width:30%;
+            }
+            nav ul{
+                display: flex;
+                justify-content: centre;
+
+            }
+            nav ul li{
+                list-style: none;
+                margin: 0 23px;
+
+            }
+            .firstSection{
+                display:flex;
+                justify-content: space-around;
+                align-items:center;
+                margin: 130px 0;
+            }
+            .leftSection{
+                
+                font-size:3rem;
+                
+            }
+            .leftSection .btn{
+                
+                 padding: 12px;
+                
+            }
+            .leftSection .buttons{
+                padding: 50px;
+            }
+            .rightSection img{
+                width:80%;
+                margin: 5px 0;
+
+            }
+            .purple{
+               color:rgb(163, 81, 241);  
+            }
+            nav ul li a{
+                text-decoration:none;
+                color: white;
+
+            }
+            nav ul li a:hover{
+                text-decoration: none;
+                color: rgb(13, 102, 25);
+                font-size:1.04rem;
+
+            }
+            #element{
+                color:rgb(163, 81, 241);  
+
+            }
+            .secondSection{
+                max-width:80vw;
+                margin: auto;
+                height: 80vh;
+            }
+            main hr{
+                border: 0;
+                background: rgb(0, 187, 255);
+                height: 1.2px;
+                margin: 60px 84px;
+            }
+            .secondSection h1{
+                font-size: 1.9rem;
+            }
+            .text-gray{
+                color: gray;
+            }
+            .secondSection .box{
+                background: white;
+                width: 77vw;
+                height: 2px;
+                margin: 56px 0;
+                display: flex;
+            }
+            .secondSection .vertical{
+                height: 93px;
+                width: 1px;
+                background-color: white;
+                margin: 0 120px;
+            }
+            .image-top{
+                width: 40px; 
+            }
+            .vertical-title{
+                position: relative;
+                top: 45px;
+                width: 150px;
+                font-size: 14px;
+
+            }
+            .vertical-desc{
+                position: relative;
+                top: 60px;
+                color: gray;
+                width: 150px;
+                font-size: 9px;
+
+
+            }
+            footer{
+                background-color: rgb(33, 113, 131);
+                
+            }
+            .footer{
+                display: flex;
+                padding: 23px 122px;
+                justify-content: space-evenly;
+
+            }
+            .footer li{
+                list-style:none;
+            }
+            .footer > div{
+                width: 223px;
+            }
+            footer .footer-rights{
+                text-align: center;
+                color: rgb(101, 6, 15);
+                padding: 12px 0;
+            }
+
+
+            
+
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="left"> Jai Ashutosh's Portfolio   </div>
+                <div class="right"> 
+                    <ul>
+                        <li> <a href="/">Home</li></a>
+                        <li><a href="/"> <li>About</li></a>
+                        <li><a href="/"><li>Services</li></a>
+                        <li><a href="/"><li>Projects</li></a>
+                        <li><a href="/"><li>Contact Me</li></a>
+                    </ul>
+                     </div>
+            </nav>
+        </header>
+        <main>
+            <section class="firstSection">
+                <div class="leftSection">
+                 Hi there, My name is <span class="purple">Jai Ashutosh</span>
+                 <div>and I am a passionate Engineer</div>
+                 <span id="element"></span>
+                 <div class="buttons">
+                    <button class="btn" style="
+                        background: #141ac9;
+                        color: white;
+                        border: 2px solid white;
+                        border-radius: 6px;
+                        font-size: 20px;
+                        cursor: pointer;
+                        ">Download Resume</button>
+                    <button class="btn"  style="
+                    background: #141ac9;
+                    color: white;
+                    border: 2px solid white;
+                    border-radius: 6px;
+                    font-size: 20px;
+                    cursor: pointer;
+                    ">Visit Github</button>
+                 </div>
+
+                </div>
+                <div class="rightSection">
+                    <img src="bg.png.jpg"alt="">
+                </div>
+
+            </section>
+            <hr>
+            <section class="secondSection">
+                <span class="textgray">What I have done so far</span>
+                <h1>Work Experience</h1>
+
+                <div class="box">
+                    <div class="vertical">
+                        <img class="image-top" src="js.png.jpg" alt style="
+                            position: relative;
+                            top: -36px;
+                            left: -16px;
+                            ">
+                        <div class="vertical-title">
+                            Software Developer Intern at DevKit
+                            <div>
+                                [February 2024 - March 2024]
+                            </div>
+
+                        </div>
+                        <div class="vertical-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper molestie nunc, eget porttitor orci pulvinar sed. Vestibulum tincidunt dui eros, non placerat ligula vestibulum a. Donec faucibus est at elit semper, non tristique augue ultricies
+
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <img class="image-top" src="react.png.png" alt style="
+                        position: relative;
+                        top: -46px;
+                        left: -16px;
+                        ">
+                        <div class="vertical-title">
+                            React Developer at Celebal Technologies 
+                            <div>
+                                [May 2024 - July 2024]
+                            </div>
+
+                        </div>
+                        <div class="vertical-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper molestie nunc, eget porttitor orci pulvinar sed. Vestibulum tincidunt dui eros, non placerat ligula vestibulum a. Donec faucibus est at elit semper, non tristique augue ultricies
+
+                        </div>
+                    </div>
+                        
+                </div>
+            </section>
+        </main>
+        <footer>
+           <div class="footer">
+            <div class="footer-first">
+                <h3>Jai Ashutosh's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>Resume</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>Resume</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>Resume</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+
+           </div> 
+           <div class="footer-rights">
+           Copyright &#169; JaiAshutoshPortfolio | All rights reserved
+           </div>
+        </footer>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> <!--cdn link just pasted here from typed.js!-->
+        <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer,', 'Data Scientist,','Data Structures,','Problem-Solving.'],//here you can add all those which you wanna show
+      typeSpeed: 40, <!-- this initiates the speed of words! -->
+    });
+  </script>
+</body>
+  
+    </body>
+</html>
